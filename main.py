@@ -13,7 +13,7 @@ if (int(num) < 4000 and int(num) >= 1) :
 
   for i in range(len(values)):
     count = num // values[i]
-    roman_number += letters[i] * count
+    roman_number += letters[i] * count # concat (count) times letters[i]
     num = num % values[i]
 
   print(roman_number)
