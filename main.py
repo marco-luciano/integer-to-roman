@@ -6,7 +6,7 @@ values = [1000, 900,  500, 400, 100,  90, 50, 40, 10, 9,  5, 4,  1]
 try :
   num = int(input("Welcome to IntegerToRoman! Please insert a number between 1 and 3999: "))
 except :
-  print("An error occured. Please insert a number between 1 and 3999")
+  print("An error occured. Please insert a number between 1 and 3999: ")
   exit()
 
 if (int(num) < 4000 and int(num) >= 1) :
@@ -22,5 +22,5 @@ if (int(num) < 4000 and int(num) >= 1) :
   exit()
 
 else :
-  print("Please insert a number between 1 and 3999")
+  print("Please insert a number between 1 and 3999: ")
   exit()
